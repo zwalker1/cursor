@@ -85,7 +85,6 @@ void rbutton() {
 
 	std::wstringstream ws;
 	ws << L"Right button down: " << x << ", " << y << L"\n";
-	ws.str().c_str();
 
 	OutputDebugStringW(ws.str().c_str());
 
